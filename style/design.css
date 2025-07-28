@@ -185,3 +185,30 @@ dark-2{
 .img{
     border-radius: 50%;
 }
+/*--------section 3 -----*/
+
+.section-column{
+    display: flex;
+    gap: 50px;
+}
+.section-title{
+    font-size: 70px;
+    font: bolder;
+}
+.footer-H{
+    font-size: 80px;
+    font: bold;
+    color: blue;
+    margin-left: 350px;
+}
+.footer-p{
+    margin-left: 270px;
+    justify-content: center;
+}
+.footer-style{
+    margin-left: 190px;
+    
+}
+.Fotter-Fotter{
+    margin-left: 200px;
+}
