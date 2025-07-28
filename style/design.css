@@ -148,3 +148,40 @@ dark-2{
     text-align: center;
     
 }
+
+.design-cointainer{
+    display: flex;
+    gap: 24px;
+    
+}
+.p{
+    display: flex;
+    gap: 10px;
+    text-align: left;
+    line-height-step: 15px;
+}
+.design{
+    gap: 24px;
+    border-radius: 6px;
+    
+    box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06);
+
+}
+.fa-star{
+    color:gold;
+}
+.design-title{
+    font-size: 30px;
+    font: bold;
+}
+.p2{
+    font-size: 20px;
+    color: rgb(99, 97, 97);
+}
+.p3{
+    font-size: 18px;
+    color: rgb(173, 170, 170);
+}
+.img{
+    border-radius: 50%;
+}
