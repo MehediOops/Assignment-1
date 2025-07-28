@@ -1,4 +1,19 @@
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position:top left, bottom right;
+    width: 1440px;
+    height: 700px;
+}
+.head-text  {
+    font-size: 52px;
+    margin-top: 30px;
 
+    font: bold;
+}    
+.BG-color{
+    background-color: #4E47FF;
+}
 
 nav{
     display: flex;
@@ -82,12 +97,7 @@ dark-2{
     width: 403px;
     height: 328px;
 }  
-.head-text  {
-    font-size: 52px;
-    margin-top: 30px;
 
-    font: bold;
-}
 .p-text{
     font-size: 24px;
 }
@@ -104,16 +114,7 @@ dark-2{
 .items{
     justify-content: space-around;
 }
-.header{
-    background-image: url('../Assets/Hero-bg.png');
-    background-repeat: no-repeat;
-    background-position:top left, bottom right;
-    width: 1440px;
-    height: 700px;
-}    
-.BG-color{
-    background-color: #4E47FF;
-}
+
 /*-------section 2-----------*/
 .section{
     display: flex;
@@ -146,67 +147,4 @@ dark-2{
     height: 306px;
     text-align: center;
     
-}
-.design-cointainer{
-    display: flex;
-    gap: 24px;
-    
-}
-.p{
-    display: flex;
-    gap: 10px;
-    text-align: left;
-    line-height-step: 15px;
-}
-.design{
-    gap: 24px;
-    border-radius: 6px;
-    
-    box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06);
-
-}
-.fa-star{
-    color:gold;
-}
-.design-title{
-    font-size: 30px;
-    font: bold;
-}
-.p2{
-    font-size: 20px;
-    color: rgb(99, 97, 97);
-}
-.p3{
-    font-size: 18px;
-    color: rgb(173, 170, 170);
-}
-.img{
-    border-radius: 50%;
-}
-/*--------section 3 -----*/
-
-.section-column{
-    display: flex;
-    gap: 50px;
-}
-.section-title{
-    font-size: 70px;
-    font: bolder;
-}
-.footer-H{
-    font-size: 80px;
-    font: bold;
-    color: blue;
-    margin-left: 350px;
-}
-.footer-p{
-    margin-left: 270px;
-    justify-content: center;
-}
-.footer-style{
-    margin-left: 190px;
-    
-}
-.Fotter-Fotter{
-    margin-left: 200px;
 }
